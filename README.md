@@ -1,2 +1,3 @@
-#Hotel website. My project at JustCode Academy.
+#Hotel website. 
+My project at JustCode Academy.
 Based on React.
