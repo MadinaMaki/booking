@@ -1,0 +1,29 @@
+.yellow-box {
+    height: 205px;
+    background-color: #FFCB61;
+    color: #ffffff;
+    padding: 30px 50px;
+    border-radius: 20px;
+}
+
+.yellow-box .nav-link {
+    display: flex;
+    margin: 25px 0;
+    font-size: 24px;
+    justify-content: space-between;
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.yellow-box .nav-link>p {
+    text-transform: capitalize;
+}
+
+.yellow-box .nav-link div {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 15px 25px;
+    border-radius: 20px;
+    margin: 25px 0 0 0;
+}

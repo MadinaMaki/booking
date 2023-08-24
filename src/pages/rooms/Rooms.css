@@ -1,0 +1,108 @@
+.container .section .filter {
+    display: flex;
+}
+
+.container .section .filter input {
+    margin: 15px 5px;
+    padding: 10px 25px;
+}
+
+.container .section .filter input:hover {
+    border: 1px solid #909fea;
+}
+
+.container .section .filter input:focus {
+    border: 2px solid #282E44;
+}
+
+.container .section button {
+    align-self: center;
+    background-color: #282E44;
+    color: #ffffff;
+    border-radius: 30px;
+    font-size: 15px;
+    border: 2px solid #282E44;
+
+    transition-property: all;
+    transition-duration: .7s;
+}
+
+.container .section button:hover {
+    border: 2px solid #282E44;
+    color: #282E44;
+    background-color: #ffffff;
+}
+
+.room-link {
+    text-decoration: none;
+}
+
+.room-info {
+    display: flex;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.card_item {
+    width: 50%;
+    cursor: pointer;
+}
+
+.card_inner {
+    position: relative;
+    background-color: #282E44;
+}
+
+.card_inner:hover .card_img {
+    transform: translate3d(-10px, -10px,
+    0);
+}
+
+.card_inner:hover .card_img img {
+    opacity: .1;
+}
+
+.card_inner:hover .card_text {
+    opacity: 1;
+}
+
+.card_img {
+    background: linear-gradient(to bottom,
+    #f38181, #fce38a);
+    transition: transform .1s linear;
+}
+
+.card_img img {
+    display: block;
+    width: 100%;
+    transition: opacity .1s linear;
+}
+
+.card_text {
+    position: absolute;
+    width: 100%;
+    font-size: 50px;
+    color: #fff;
+    opacity: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    top: 50%;
+    left: 0;
+    z-index: 2;
+    transform: translate3d(0, -50%, 0);
+    transition: opacity .2s linear;
+}
+
+.room-info .details-list {
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    padding: 20px;
+    margin: 0 15px;
+}
+
+.room-info .details-list p {
+    font-size: 30px;
+    color: #000000;
+}

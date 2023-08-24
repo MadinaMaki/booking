@@ -1,0 +1,22 @@
+.main {
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    margin: 20px auto;
+}
+
+.main .form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main .form .submit-btn {
+    border: 1px solid #20a40a;
+    width: 100%;
+    color: #ffffff;
+    background-color: #20a40a;
+    cursor: pointer;
+}
+
+

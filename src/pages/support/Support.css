@@ -1,0 +1,23 @@
+.section .container .support {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 45px 0;
+    padding: 35px 0;
+}
+
+.section .container .info-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.section .container .info-container p {
+    line-height: 1.6;
+    margin: 0 0 10px 0;
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25),
+                 0 4px 4px rgba(0, 0, 0, 0.25)
+}

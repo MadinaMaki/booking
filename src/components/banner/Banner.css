@@ -1,0 +1,13 @@
+.banner {
+    display: flex;
+    height: 100vh;
+}
+
+.banner .banner-inner {
+    width: 100%;
+
+    background-image: url("banner.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

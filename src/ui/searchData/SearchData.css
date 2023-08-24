@@ -1,0 +1,6 @@
+.container .filter input {
+    padding: 10px;
+    border: 1px solid #999999;
+    border-radius: 30px;
+    width: 500px;
+}

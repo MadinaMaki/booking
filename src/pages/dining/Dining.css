@@ -1,0 +1,72 @@
+.container .section .banner {
+    display: flex;
+    height: 400px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("assets/dining.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 20px 0 0 0;
+}
+
+.container .section .banner h1 {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 35px;
+}
+
+.container .section .banner p {
+    margin: 35px 0;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.container .section .banner h3 {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 20px;
+    margin: 10px 0 0 0;
+}
+
+.container .section .dining {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.container .section .dining .dining-inner {
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+}
+
+.img-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-container img {
+    margin: 0 0 15px 0;
+}
+
+.container .section .dining p {
+    margin: 0 0 25px 0;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.container .section .dining .visit {
+    position: absolute;
+    right: 0;
+    padding: 12px 100px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+    background-color: #E8E0FF;
+    color: #9C2525;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+

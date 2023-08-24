@@ -1,0 +1,16 @@
+.rooms-list-button {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    color: #282E44;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 12px 45px;
+    transition-property: all;
+    transition-duration: .7s;
+}
+
+.rooms-list-button:hover {
+    background-color: #282E44;
+    color: #ffffff;
+}

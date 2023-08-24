@@ -1,0 +1,22 @@
+.container .section .title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 55px 0;
+}
+
+.container .section .title p {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.container .section .title p span {
+    color: #408185;
+    text-transform: uppercase;
+}
+
+.container .section .sub-title {
+    text-transform: uppercase;
+    margin: 0 0 25px 0;
+    font-size: 24px;
+}

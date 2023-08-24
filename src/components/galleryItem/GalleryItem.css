@@ -1,0 +1,14 @@
+.sub-title {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+
+.room-img-container {
+   display: flex;
+}
+
+.room-img-container img {
+    margin: 0 0 15px 0;
+    width: 100%;
+}
